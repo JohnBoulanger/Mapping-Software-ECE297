@@ -1,6 +1,8 @@
-# C++ Mapping Software ECE297
+# C++ Mapping Software for ECE297
 
-A brief description of your mapping software. Mention what it does and its main features.
+![View of London, England]("C:\Users\jboulanger\OneDrive - TEINE ENERGY LTD\Desktop\Other\ECE297 Photos\fullzoomlondon.png")
+
+A geographical mapping software that visualizes cities across the globe. Designed for commuters in densly populated cities, who travel by car, bus and train.
 
 ## Table of Contents
 
