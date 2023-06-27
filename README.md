@@ -1,6 +1,6 @@
 # C++ Mapping Software for ECE297
 
-![View of London, England]("C:\Users\jboulanger\OneDrive - TEINE ENERGY LTD\Desktop\Other\ECE297 Photos\fullzoomlondon.png")
+![View of London, England]("images/fullzoomlondon.png")
 
 A geographical mapping software that visualizes cities across the globe. Designed for commuters in densly populated cities, who travel by car, bus and train.
 
