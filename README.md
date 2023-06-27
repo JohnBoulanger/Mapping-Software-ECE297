@@ -11,10 +11,13 @@ This is a geographical mapping software that visualizes cities across the globe.
 * Utilizes Dropdown menu to select between cities
 * Visualizes different features such as roads, parks and lakes
 * Displays street names, subway stations, points of interest and more
+* Pulls live weather from an API to find current conditions anywhere on the map
+* Visualizes live traffic from an API to highlight road closures, construction and more
 * Finds the optimal route between intersections for commuters
 * Displays easy to undertand driving directions to travel the optimal path found
 * Search for specific streets or intersections using search bar with autocomplete
 * Toggle between dark mode and light mode
+* Visual legend to idenfity between different features and road types
 
 ## Pathfinding Algorithm
 
@@ -29,13 +32,27 @@ Our mapping software utilizes the A* pathfinding algorithm approach. Our Pathfin
 The Travelling Salesman Problem (TSP) expands upon our A* pathfinding algorithm to find the optimal route for a courier delivering packages. Given a handful of starting locations, and many pickup/dropoff locations, our algorithm was designed to calculate the most optimal path that visits all the required intersections. Since this problem is very complex, our algorithm took an iterative approach, coming up with hundreds of solutions and annealing them until the most optimal route is found within its given time-limit. This approach uses a "hill-climbing" technique to ensure that solutions are not found within local minima, and the entire solution space is explored to come up with the best solution possible within the given timeframe.
 
 ## Screenshots
-| Toronto, Canada | London, England |
+| Traffic View | Pathfinding Visual |
 |:-----------------:|:-----------------:|
+|  <img src="images/londontraffic.png" alt="Traffic View" height="110%" width="110%"> |  <img src="images/pathfinding.png" alt="Pathfinding" height="80%" width="80%">|
+
+
+| Pathfinding Visual | Directions |
+|:-----------------:|:-----------------:|
+|  <img src="images/smallpathfinding.png" alt="Pathfinding"> |  <img src="images/dynamicdirections.png" alt="directions">|
+
+| Light Mode | Dark Mode |
+|:-----------------:|:-----------------:|
+|  <img src="images/golfcourse.png" alt="Light mode"> |  <img src="images/darkgolfcourse.png" alt="Dark mode">|
+
+| Street View | Street Legend |
+|:-----------------:|:-----------------:|
+|  <img src="images/closezoomtoronto.png" alt="Traffic View"> |  <img src="images/darkharbour.png" alt="Pathfinding">|
 
 ## Contact
 
-Provide contact information (such as an email address or GitHub username) for users to reach out to you if they have any questions, feedback, or issues related to your mapping software.
+John Boulanger <br>
+Email: john03yyc@gmail.com <br>
+Github: JohnBoulanger <br>
+Linkedin: <a href="https://www.linkedin.com/in/john-boulanger-42a706279/">My Homepage</a><br>
 
-## Acknowledgments
-
-If you used any external resources, libraries, or code snippets in your mapping software, acknowledge and credit them here. You can also express gratitude to anyone who provided assistance or support during the development process.
