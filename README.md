@@ -7,7 +7,7 @@ This is a geographical mapping software that visualizes cities across the globe.
  
 
 ## Main Features
-* Use mouse/buttons to zoom, scroll and pan around the city
+* Uses mouse/buttons to zoom, scroll and pan around the city
 * Utilizes Dropdown menu to select between cities
 * Visualizes different features such as roads, parks and lakes
 * Displays street names, subway stations, points of interest and more
