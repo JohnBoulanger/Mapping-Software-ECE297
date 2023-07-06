@@ -1,23 +1,23 @@
 # C++ Mapping Software for ECE297
 
-This is a geographical mapping software that visualizes cities across the globe. Designed for commuters in densly populated cities, who travel by car, bus and train. Written using C++, and visualizes data from the OpenStreetMap database API through graphics libraries like GTK and EZGL.
+This is a geographical mapping software that visualizes cities across the globe. Designed for commuters in densly populated cities who travel by car, bus and train. Written using C++, and visualizes data from the OpenStreetMap database API through graphics libraries like GTK and EZGL.
 | Toronto, Canada | London, England |
 |:-----------------:|:-----------------:|
 |<img src="images/medzoomtoronto.png" alt="View of Toronto, Canada" height="80%" width="80%"> | <img src="images/fullzoomlondon.png" alt="View of London, England"> |
  
 
 ## Main Features
-* Uses mouse/buttons to zoom, scroll and pan around the city
-* Utilizes Dropdown menu to select between cities
+* Uses mouse or buttons to zoom, scroll and pan around the city
+* Utilizes a Dropdown menu to select between cities
 * Visualizes different features such as roads, parks and lakes
-* Displays street names, subway stations, points of interest and more
-* Pulls live weather from an API to find current conditions anywhere on the map
-* Visualizes live traffic from an API to highlight road closures, construction and more
-* Finds the optimal route between intersections for commuters
-* Displays easy to undertand driving directions to travel the optimal path found
-* Search for specific streets or intersections using search bar with autocomplete
-* Toggle between dark mode and light mode
-* Visual legend to idenfity between different features and road types
+* Displays street names, subway stations, points of interests, etc...
+* Pulls live weather from an API to find the current conditions anywhere on in a city
+* Visualizes live traffic from an API to highlight all road closures, construction sites and more
+* Finds the optimal route between two intersections for commuters to get from point A to B
+* Displays simplistic driving instructions so commuters can travel along the optimal path with guidance
+* Can search for specific streets or intersections using search bar with built-in autocomplete
+* Can toggle between dark mode and light mode
+* Has a visual legend to idenfity between different features and road types
 
 ## Pathfinding Algorithm
 
