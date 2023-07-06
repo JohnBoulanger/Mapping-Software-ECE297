@@ -17,7 +17,7 @@ This is a geographical mapping software that visualizes cities across the globe.
 * Displays simplistic driving instructions so commuters can travel along the optimal path with guidance
 * Can search for specific streets or intersections using search bar with built-in autocomplete
 * Can toggle between dark mode and light mode
-* Has a visual legend to idenfity between different features and road types
+* Has a colour-coded legend to idenfity between different features and road types
 
 ## Pathfinding Algorithm
 
